@@ -1,0 +1,27 @@
+/* Подключение шрифтов */
+@font-face {
+    font-family: 'MainFont';
+    src: url('../fonts/MainFont-Regular.woff2') format('woff2'),
+         url('../fonts/MainFont-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova.otf') format('opentype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/proximanova-bold.otf') format('opentype'); /* Пример пути к bold шрифту */
+    font-weight: 700; /* Bold */
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Здесь можно добавить дополнительные шрифты по мере необходимости */

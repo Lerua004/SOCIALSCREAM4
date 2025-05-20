@@ -1,0 +1,27 @@
+/* Десктопные стили */
+:root {
+    --primary-color: #333;
+    --secondary-color: #666;
+    --background-color: #fff;
+    --max-width: 1200px;
+}
+
+/* Контейнеры */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Сетка */
+.grid {
+    display: grid;
+    gap: 20px;
+}
+
+/* Медиа-запрос для десктопа */
+@media screen and (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(12, 1fr);
+    }
+}
