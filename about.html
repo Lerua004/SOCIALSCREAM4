@@ -3,28 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О нас</title>
+    <title>О нас - Social Scream</title>
     <link rel="stylesheet" href="stylesheets/style.css">
 </head>
-<body>
-    <header>
-        <div class="nav-background"></div>
-        <div class="header-content">
-            <div class="logo">
+<body class="about-page-new">
+    <header class="about-header">
+        <img src="images/about/header_bg.png" alt="Header Background" class="about-header-bg">
+        <div class="header-content-about">
+            <div class="logo-about">
                 <a href="index.html">
-                    <img src="images/logo.svg" alt="Логотип">
+                    <span class="logo-social">SOCIAL</span>
+                    <span class="logo-scream">Scream</span>
+                    <span class="logo-subtext">центр психологической помощи</span>
                 </a>
             </div>
-            <a class="nav-link" href="about.html">О нас</a>
-            <a class="nav-link" href="news.html">Новости</a>
-            <a class="nav-link" href="support.html">Поддержка центра</a>
+            <nav class="nav-about">
+                <a href="index.html">Главная</a>
+                <a href="about.html" class="active">О нас</a>
+                <a href="news.html">Новости</a>
+                <a href="support.html">Поддержка центра</a>
+            </nav>
         </div>
     </header>
-    <main>
-        <h1>О нас</h1>
+
+    <main class="about-main">
+        <section class="about-intro">
+            <div class="swoosh-decoration">
+                <img src="images/about/decorative_swoosh_1.png" alt="Swoosh">
+            </div>
+            <div class="circle-decoration">
+                <img src="images/about/decorative_circle_1.png" alt="Circle">
+            </div>
+            <h1 class="about-title">о нас</h1>
+            <div class="about-text-content">
+                <p>
+                    Добро пожаловать в Центр по борьбе с мета-фобиями! Мы — команда профессионалов, которые понимают, как важно преодолеть страхи, мешающие наслаждаться жизнью в цифровом мире.
+                </p>
+                <p>
+                    Наш центр предлагает уникальный способ помочь вам встретиться лицом к лицу с вашими фобиями, чтобы вы могли вернуться к радости общения и самовыражения. Каждый сеанс — это шанс открыть новые горизонты и подружиться со своими страхами. Присоединяйтесь к нам на пути к свободе от мета-фобий!
+                </p>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <h2 class="team-title">наша команда</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_1.png')"></div>
+                    <div class="team-member-info">
+                        <h3>ИВАНОВ ИВАН АЛЕКСАНДРОВИЧ</h3>
+                        <p>специалист по селфифобии</p>
+                    </div>
+                </div>
+                 <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_2.png')"></div>
+                    <div class="team-member-info">
+                        <h3>ЛАПШИНА ЯНИНА ЮРЬЕВNA</h3>
+                        <p>специалист по лайкофобии</p>
+                    </div>
+                </div>
+                 <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_3.png')"></div>
+                    <div class="team-member-info">
+                        <h3>ПАНЬКОВА МАРИЯ МИХАЙЛОВНА</h3>
+                        <p>СПЕЦИАЛИСТ ПО СДБ-ФОБИИ</p>
+                    </div>
+                </div>
+                <div class="team-member team-group">
+                    <img src="images/about/team_group_bg.png" class="team-group-photo" alt="Команда специалистов">
+                    <div class="team-group-info">
+                        <h3>СОБКАЛО НИКОЛАЙ ИВАНОВИЧ, КОЗЛОВА АННА АНДРЕЕВНА, ВЯЗОВИК ЮЛИЯ ЮРЬЕВНА</h3>
+                        <p>КОМАНДА СПЕЦИАЛИСТОВ ПО ТРЕНИНГУ МЕТАФОБИЙ НА НАЧАЛЬНЫХ СТАДИЯХ</p>
+                    </div>
+                </div>
+                 <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_4.png')"></div>
+                    <div class="team-member-info">
+                        <h3>УСКОВА АННА АЛЕКСЕЕВНА</h3>
+                        <p>специалист по пересылкафобии</p>
+                    </div>
+                </div>
+                 <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_5.png')"></div>
+                    <div class="team-member-info">
+                        <h3>ЛУЧИХИН ВЛАДИСЛАВ МИХАЙЛОВИЧ</h3>
+                        <p>специалист по пунктофобии</p>
+                    </div>
+                </div>
+                 <div class="team-member">
+                    <div class="team-member-photo" style="background-image: url('images/about/specialist_6.png')"></div>
+                    <div class="team-member-info">
+                        <h3>ЛЯПИН ВЛАДИМИР СЕРГЕЕВИЧ</h3>
+                        <p>специалист по эмоджифобии</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <img src="images/about/line_separator_1.svg" alt="separator" class="separator-line">
+
+        <section class="branches-section">
+            <h2 class="branches-title">НАШИ филиалы</h2>
+            <div class="branches-container">
+                <div class="branch-card left-branch" style="background-image: url('images/about/branch_left.png');"></div>
+                <div class="branch-card main-branch" style="background-image: url('images/about/branch_main.png');">
+                    <p>Маргелова 3к3</p>
+                </div>
+                <div class="branch-card right-branch" style="background-image: url('images/about/branch_right.png');"></div>
+                 <img src="images/about/arrow_right_blue.png" alt="arrow" class="arrow-right">
+                 <img src="images/about/arrow_right_blue.png" alt="arrow" class="arrow-left">
+            </div>
+        </section>
+
+        <img src="images/about/line_separator_3.svg" alt="separator" class="separator-line">
+
+        <section class="reviews-section">
+            <h2 class="reviews-title">отзывы</h2>
+            <div class="reviews-grid">
+                <article class="review-card">
+                    <div class="review-header">
+                        <img src="images/about/review_avatar_1.png" alt="Avatar" class="review-avatar">
+                        <div class="review-meta">
+                            <p class="review-date">25 октября 2024</p>
+                            <h3 class="review-author">Анжелика Трофимова</h3>
+                        </div>
+                        <div class="review-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Долгое время мои страхи казались мне непреодолимыми — я избегала многих ситуаций и чувствовала себя словно в ловушке. Когда я обратилась в этот центр, меня сразу встретила поддержка и понимание. Специалисты внимательно выслушали мои переживания и помогли мне разобраться, откуда берутся мои страхи. Благодаря индивидуальному подходу...</p>
+                    <a href="#" class="read-more">
+                        <img src="images/about/read_more_bg.png" alt="">
+                        <span>ЧИТАТЬ ДАЛЕЕ</span>
+                    </a>
+                </article>
+                <article class="review-card">
+                    <div class="review-header">
+                        <img src="images/about/review_avatar_1.png" alt="Avatar" class="review-avatar">
+                        <div class="review-meta">
+                            <p class="review-date">13 ИЮЛЯ 2024</p>
+                            <h3 class="review-author">Григорий Петухов</h3>
+                        </div>
+                        <div class="review-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span class="star-empty">&#9734;</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Прошло несколько месяцев с тех пор, как я начал посещать центр по борьбе с метафобиями, и я уже вижу огромные изменения в себе. Раньше страхи мешали мне развиваться и строить отношения, а теперь я начинаю жить без постоянного чувства тревоги. Особое спасибо хочу сказать...</p>
+                    <a href="#" class="read-more">
+                        <img src="images/about/read_more_bg.png" alt="">
+                        <span>ЧИТАТЬ ДАЛЕЕ</span>
+                    </a>
+                </article>
+                <article class="review-card">
+                    <div class="review-header">
+                        <img src="images/about/review_avatar_1.png" alt="Avatar" class="review-avatar">
+                        <div class="review-meta">
+                            <p class="review-date">15 августа 2024</p>
+                            <h3 class="review-author">Полина Полетаева</h3>
+                        </div>
+                        <div class="review-rating">
+                            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Я всегда считала, что с моими страхами невозможно справиться. Каждый день казался борьбой с невидимым врагом. Посещение центра стало настоящим поворотным моментом. Здесь я не просто получила терапию, а нашла поддержку, понимание и новых друзей. Программы центра помогли мне увидеть, что...</p>
+                    <a href="#" class="read-more">
+                        <img src="images/about/read_more_bg.png" alt="">
+                        <span>ЧИТАТЬ ДАЛЕЕ</span>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <img src="images/about/line_separator_2.svg" alt="separator" class="separator-line">
     </main>
-    <div class="footer">
-        <p>&copy; 2024 Ронжина</p>
-    </div>
+
+    <footer class="about-footer">
+        <img src="images/about/footer_bg.png" alt="Footer Background" class="about-footer-bg">
+        <div class="footer-content-about">
+            <div class="footer-contacts">
+                <h2>контакты</h2>
+                <div class="social-links">
+                    <a href="#"><img src="images/about/social_icon_1.png" alt="Social 1"><span>+7 282 89 07 98</span></a>
+                    <a href="#"><img src="images/about/social_icon_2.png" alt="Social 2"><span>+7 282 99 07 76</span></a>
+                    <a href="#"><img src="images/about/social_icon_3.png" alt="Social 3"><span>@Lghjf/jj</span></a>
+                    <a href="#"><img src="images/about/social_icon_4.png" alt="Social 4"><span>@k.gffreu</span></a>
+                    <a href="#"><img src="images/about/icon_telegram.png" alt="Telegram"></a>
+                    <a href="#"><img src="images/about/icon_vk.png" alt="VK"></a>
+                </div>
+            </div>
+            <div class="footer-hse">
+                <img src="images/about/hse_logo.png" alt="HSE Logo">
+                <div class="hse-text">
+                    <p>HSE</p>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="javascript/javascripts.js"></script>
 </body>
 </html> 

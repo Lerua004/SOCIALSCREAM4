@@ -1,34 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная страница</title>
-    <link rel="stylesheet" href="stylesheets/style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ронжина - Главная страница</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  
     <header>
-      <div class="nav-background"></div>
-      <div class="header-content">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/logo.svg" alt="Логотип" />
-          </a>
+        <div class="logo-wrapper">
+            <img src="images/menu-paper.png" alt="Открыть меню" class="menu-paper">
+            <img src="images/logo.svg" alt="Логотип" class="logo-img">
         </div>
-        <a class="nav-link" href="about.html">О нас</a>
-        <a class="nav-link" href="news.html">Новости</a>
-        <a class="nav-link" href="support.html">Поддержка центра</a>
-      </div>
+        <div class="nav-background">
+            <div class="header-content nav-menu">
+                <div class="navbar-logo">
+                    <img src="images/main_logo.svg" alt="Логотип" class="navbar-logo-img">
+                </div>
+                <nav class="navbar-links">
+                    <a class="nav-link" href="about.html">О нас</a>
+                    <a class="nav-link" href="news.html">Новости</a>
+                    <a class="nav-link" href="support.html">Поддержка центра</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main>
-      <h1>Добро пожаловать в центр по борьбе с метафобиями</h1>
+        <div class="background-stripes">
+            <img src="images/left.png" class="stripe-left" alt="stripe left">
+            <img src="images/center.png" class="stripe-center" alt="stripe center">
+            <img src="images/right.png" class="stripe-right" alt="stripe right">
+        </div>
+        <div class="first-main-block"></div>
+        <div class="main-block"></div>
     </main>
-
-    <div class="footer">
-      <p>&copy; твой страх-наш вызов</p>
+    <div class="center-title-wrapper">
+        <div class="center-title-content">
+            <div class="center-title-subtitle">центр психологической помощи</div>
+            <img src="images/Scream.png" alt="Название" class="center-title-img">
+            <img src="images/SOCIAL.png" alt="Social" class="social-label-img">
+            <button class="record-btn">
+                <img src="images/button_background.svg" alt="Кнопка запись" class="record-btn-bg">
+                <span class="record-btn-text">запись</span>
+            </button>
+        </div>
     </div>
 
     <script src="javascript/javascripts.js"></script>
-  </body>
+</body>
 </html>

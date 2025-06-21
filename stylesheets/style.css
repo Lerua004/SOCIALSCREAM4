@@ -1,5 +1,6 @@
-@import "reset.css";
-@import "fonts.css";
-@import "layout.css";
-@import "adaptive.css";
-@import "animation.css";
+/* Подключение всех стилей в правильном порядке */
+@import 'reset.css';    /* Сброс базовых стилей */
+@import 'fonts.css';    /* Подключение шрифтов */
+@import 'layout.css';   /* Базовые стили для десктопа */
+@import 'adaptive.css'; /* Стили для адаптивов */
+@import 'animation.css'; /* Анимации */
